@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 22 12:03:24 PDT 2002
+userAlg/src
+
+Modified Files:
+	UserAlg_load.cxx UserAlg.cxx PauseEvent.cxx jobOptions.txt 
+Log Message:
+update for Gleam and new TDS classes
+    *
+------------------------------------------------------------
 User: heather  Mon Mar 25 14:33:44 PST 2002
 userAlg/src
 
