@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Oct 26 10:13:23 PDT 2001
+userAlg/src UserAlg_load.cxx jobOptions.txt
+
+Modified Files:
+	UserAlg_load.cxx jobOptions.txt 
+Log Message:
+special alg to pause GUI on selected events
+    *
+------------------------------------------------------------
 User: burnett  Tue Jun 19 07:58:14 PDT 2001
 userAlg/src UserAlg_load.cxx
 
