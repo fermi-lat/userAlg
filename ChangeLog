@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Mar 25 13:53:48 PST 2002
+userAlg/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+update requirements to use Gleam rather than pdrApp
+    *
+------------------------------------------------------------
 User: lsrea  Tue Jan  8 21:10:34 PST 2002
 userAlg/src
 
