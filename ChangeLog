@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Thu Jul 15 12:02:54 PDT 2004
+userAlg/src
+
+Modified Files:
+	RegisterSource.cxx UserAlg.cxx 
+Log Message:
+fix filename capitalization bug
+    *
+------------------------------------------------------------
+User: burnett  Thu Jul 15 12:02:54 PDT 2004
 userAlg/doc
 
 Modified Files:
