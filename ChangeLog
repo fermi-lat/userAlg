@@ -1,4 +1,28 @@
 ------------------------------------------------------------
+TAG
+Tag name: v6r4p2, operation: add
+Package: userAlg
+User: jrb  Tue Jan 11 15:22:47 2005
+Files:
+  userAlg/.cvsignore  1.1.1.1
+  userAlg/ChangeLog  1.78
+  userAlg/cmt/.cvsignore  1.1.1.1
+  userAlg/cmt/requirements  1.23
+  userAlg/cmt/Makefile  1.1.1.1
+  userAlg/doc/release.notes  1.9
+  userAlg/src/Replay.cxx  1.6
+  userAlg/src/PauseEvent.cxx  1.7
+  userAlg/src/ntuple.txt  1.4
+  userAlg/src/mainpage.h  1.3
+  userAlg/src/RegisterSource.cxx  1.4
+  userAlg/src/jobOptions.txt  1.17
+  userAlg/src/UserAlg_load.cxx  1.6
+  userAlg/src/UserAlg.cxx  1.19
+  userAlg/src/test/jobOptions.txt  1.4
+  userAlg/xml/user_sources.xml  1.2
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Jan 11 15:22:40 PST 2005
 userAlg/doc
 
