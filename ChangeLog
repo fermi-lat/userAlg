@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: burnett  Thu Oct  3 10:04:29 PDT 2002
+userAlg/src
+
+Modified Files:
+	UserAlg.cxx UserAlg_load.cxx jobOptions.txt ntuple.txt 
+Added Files:
+	RegisterSource.cxx 
+Log Message:
+updating for use with Gleam v2r3
+    *
+------------------------------------------------------------
 User: burnett  Thu Oct  3 10:04:28 PDT 2002
 userAlg/cmt
 
