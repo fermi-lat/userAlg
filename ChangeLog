@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: kuss  Thu Oct  7 06:15:13 PDT 2004
+userAlg/src
+
+Modified Files:
+	UserAlg.cxx 
+Log Message:
+Example that uses a propagator, computes the value of a completely useless
+variable, and adds it to UserAlg.treeName.
+
+    *
+------------------------------------------------------------
 User: burnett  Thu Sep  9 11:17:08 PDT 2004
 userAlg/doc
 
