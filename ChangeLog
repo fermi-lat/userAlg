@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Thu Jul 15 12:02:54 PDT 2004
+userAlg/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix filename capitalization bug
+    *
+------------------------------------------------------------
+User: burnett  Thu Jul 15 12:02:54 PDT 2004
 userAlg/cmt
 
 Modified Files:
