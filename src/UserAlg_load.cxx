@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg_load.cxx,v 1.1 2001/06/07 23:12:05 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg_load.cxx,v 1.2 2001/06/19 14:58:14 burnett Exp $
 //====================================================================
 //
 //  Description: Implementation of <Package>_load routine.
@@ -20,6 +20,7 @@
 //! Load all  services: 
 void UserAlg_load() {
     DLL_DECL_ALGORITHM( UserAlg );
+    DLL_DECL_ALGORITHM( PauseEvent );
 } 
 
 extern "C" void userAlg_loadRef()    {
