@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Jan 11 12:34:11 PST 2005
+userAlg/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Fix end-of-line characters
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r4p1, operation: add
 Package: userAlg
