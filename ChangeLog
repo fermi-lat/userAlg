@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Jul  2 10:26:50 PDT 2002
+userAlg/src
+
+Modified Files:
+	PauseEvent.cxx UserAlg_load.cxx jobOptions.txt mainpage.h 
+Log Message:
+Fix up doc for Replay a bit. Put into the load list.
+    *
+------------------------------------------------------------
 User: burnett  Tue Jul  2 10:15:05 PDT 2002
 userAlg/src
 
