@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: burnett  Sat Jan 25 15:46:15 PST 2003
+userAlg/src
+
+Modified Files:
+	RegisterSource.cxx 
+Log Message:
+
+Fix up for GlastRelease
+    *
+------------------------------------------------------------
+User: burnett  Sat Jan 25 15:46:15 PST 2003
 userAlg/cmt
 
 Modified Files:
