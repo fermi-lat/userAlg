@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Mon Jan 10 13:36:41 PST 2005
+userAlg/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+get rid of a use xml
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r4, operation: add
 Package: userAlg
