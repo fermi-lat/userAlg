@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Nov 26 13:40:19 PST 2004
+userAlg/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+change test source since usersource caused crash. tagging v6r4
+    *
+------------------------------------------------------------
 User: heather  Fri Nov  5 10:55:49 PST 2004
 userAlg/src
 
