@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Jul 13 16:35:17 PDT 2004
+userAlg/src
+
+Modified Files:
+	UserAlg.cxx jobOptions.txt ntuple.txt 
+Log Message:
+add tuple example code.
+    *
+------------------------------------------------------------
 User: burnett  Tue Jun 22 15:36:44 PDT 2004
 userAlg/doc
 
