@@ -40,8 +40,9 @@ public:
         return 0;
     }
 
+    /// return (costheta, phi)
     virtual std::pair<float,float> dir(float energy)const {
-        return std::make_pair(-1.0,0) ;}
+        return std::make_pair(1.0,0) ;}
 
     // not really needed by the interface
     virtual float operator()(float /*r*/)const{return 0;}
@@ -55,7 +56,7 @@ private:
  *  @brief Register a sources
  *  
  *   @author Toby Burnett
- *   $Header: /nfs/slac/g/glast/ground/cvs/GRB/src/RegisterGRB.cxx,v 1.1 2002/07/05 03:34:32 burnett Exp $
+ *   $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/RegisterSource.cxx,v 1.1 2002/10/03 17:04:29 burnett Exp $
  */
 class RegisterSource : public AlgTool, virtual public IRegisterSource {
 public:
