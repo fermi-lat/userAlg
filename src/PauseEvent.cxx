@@ -15,7 +15,6 @@
 
 // for access to instrument.ini
 #include "GlastSvc/GlastDetSvc/IGlastDetSvc.h"
-#include "xml/IFile.h"
 
 #include <cassert>
 #include <algorithm>
@@ -28,7 +27,7 @@
 /** @class PauseEvent
 * @brief Algorithm to pause execution to all user to examine an event more closely. 
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/PauseEvent.cxx,v 1.5 2002/07/02 17:26:50 burnett Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/PauseEvent.cxx,v 1.6 2003/03/15 22:12:28 burnett Exp $
 <br> Example jobOptions fragment:
 <pre>
 // use this when you want to specify the run numbers (Run_Event):
