@@ -1,7 +1,7 @@
 package userAlg
 
-version v6r4p1
-# $Id: requirements,v 1.21 2005/01/10 21:36:41 burnett Exp $
+version v6r4p2
+# $Id: requirements,v 1.22 2005/01/11 20:34:11 jrb Exp $
 
 # --------------------------
 # run a job with a user algorithm
