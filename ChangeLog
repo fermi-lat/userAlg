@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Fri Nov 26 13:40:20 PST 2004
+userAlg/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+change test source since usersource caused crash. tagging v6r4
+    *
+------------------------------------------------------------
+User: burnett  Fri Nov 26 13:40:20 PST 2004
 userAlg/src
 
 Modified Files:
