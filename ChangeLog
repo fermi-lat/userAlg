@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri May 18 15:55:58 PDT 2001
+userAlg/src jobOptions.txt UserAlg.cxx
+
+Modified Files:
+	jobOptions.txt UserAlg.cxx 
+Log Message:
+some examples of accessing the TDS and writing to an ntuple
+    *
+------------------------------------------------------------
 User: burnett  Thu Apr 26 11:52:34 PDT 2001
 userAlg/src UserAlg.cxx pdrApp_load.cxx
 
