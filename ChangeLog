@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Jul  2 10:15:05 PDT 2002
+userAlg/src
+
+Modified Files:
+	Replay.cxx 
+Log Message:
+allow multiple copies, all under a Replay top level menu item.
+    *
+------------------------------------------------------------
 User: burnett  Mon Jul  1 15:34:58 PDT 2002
 userAlg/src
 
