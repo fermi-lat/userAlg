@@ -1,7 +1,7 @@
 /** @file UserAlg.cxx
     @brief declartion, implementaion of the class UserAlg
 
-    $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.10 2003/02/28 21:16:02 heather Exp $
+    $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.11 2003/03/15 22:12:28 burnett Exp $
 */
 // Gaudi system includes
 #include "GaudiKernel/MsgStream.h"
@@ -156,7 +156,7 @@ StatusCode UserAlg::execute()
         }
     }
     
-
+#if 0 // enable to use pause with the display
     // An example of pausing the display 
     bool pause = false;
     // calculate some condition here...
@@ -165,7 +165,7 @@ StatusCode UserAlg::execute()
         log << MSG::INFO << "Pausing at event " << m_count <<  endreq;
         m_guiSvc->guiMgr()->pause();
     } 
-    
+#endif
 #ifdef NTUPLE
     // Here we are adding to our ROOT ntuple
     if (!m_tupleName.empty())
