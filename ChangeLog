@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Thu Apr 26 11:52:34 PDT 2001
+userAlg/src UserAlg.cxx pdrApp_load.cxx
+
+Modified Files:
+	UserAlg.cxx pdrApp_load.cxx 
+Log Message:
+update for Gaudi v7
+
+    *
+------------------------------------------------------------
 User: burnett  Mon Apr  2 09:14:36 PDT 2001
 userAlg/cmt requirements
 
