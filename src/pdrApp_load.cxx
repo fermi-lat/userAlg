@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/aoRecon/src/Dll/aoRecon_load.cxx,v 1.1.1.1 2001/03/01 15:42:46 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/pdrApp_load.cxx,v 1.1.1.1 2001/04/01 22:25:06 burnett Exp $
 //====================================================================
 //
 //  Description: Implementation of <Package>_load routine.
@@ -7,9 +7,9 @@
 //
 //====================================================================
 
-#include "Gaudi/Interfaces/ICnvFactory.h"
-#include "Gaudi/Interfaces/ISvcFactory.h"
-#include "Gaudi/Interfaces/IAlgFactory.h"
+#include "GaudiKernel/ICnvFactory.h"
+#include "GaudiKernel/ISvcFactory.h"
+#include "GaudiKernel/IAlgFactory.h"
 
 
 #define DLL_DECL_SERVICE(x)    extern const ISvcFactory& x##Factory; x##Factory.addRef();
