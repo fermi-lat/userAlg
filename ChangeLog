@@ -1,4 +1,28 @@
 ------------------------------------------------------------
+TAG
+Tag name: v6r4, operation: add
+Package: userAlg
+User: burnett  Fri Nov 26 13:41:53 2004
+Files:
+  userAlg/.cvsignore  1.1.1.1
+  userAlg/ChangeLog  1.69
+  userAlg/cmt/.cvsignore  1.1.1.1
+  userAlg/cmt/requirements  1.20
+  userAlg/cmt/Makefile  1.1.1.1
+  userAlg/doc/release.notes  1.7
+  userAlg/src/Replay.cxx  1.6
+  userAlg/src/PauseEvent.cxx  1.6
+  userAlg/src/ntuple.txt  1.4
+  userAlg/src/mainpage.h  1.3
+  userAlg/src/RegisterSource.cxx  1.4
+  userAlg/src/jobOptions.txt  1.16
+  userAlg/src/UserAlg_load.cxx  1.6
+  userAlg/src/UserAlg.cxx  1.19
+  userAlg/src/test/jobOptions.txt  1.3
+  userAlg/xml/user_sources.xml  1.2
+
+    *
+------------------------------------------------------------
 User: burnett  Fri Nov 26 13:40:20 PST 2004
 userAlg/src/test
 
