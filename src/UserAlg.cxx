@@ -1,5 +1,8 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.9 2002/10/03 17:04:29 burnett Exp $
+/** @file UserAlg.cxx
+    @brief declartion, implementaion of the class UserAlg
 
+    $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.10 2003/02/28 21:16:02 heather Exp $
+*/
 // Gaudi system includes
 #include "GaudiKernel/MsgStream.h"
 #include "GaudiKernel/AlgFactory.h"

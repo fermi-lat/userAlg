@@ -1,10 +1,10 @@
-//$Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/mainpage.h,v 1.1.1.1 2001/04/01 22:25:06 burnett Exp $
+//$Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/mainpage.h,v 1.2 2002/07/02 17:26:50 burnett Exp $
 // (Special "header" just for doxygen)
 
 /*! @mainpage  package userAlg
 
 This package is a "user hook" allowing development of algrorithms in the Glast Gaudi environment
-Since it "uses" the global package pdrApp, it depends on all packages needed to build the 
+Since it "uses" the global package Gleam, it depends on all packages needed to build the 
 simulation/ reconstruction environment. This includes 
 
   <ul>
@@ -20,6 +20,10 @@ simulation/ reconstruction environment. This includes
  <li> PauseEvent </li>
  <li> Replay </li>
  </ul>
+
+ @section joboptioins Job Options
+ @param UserAlg.tupleName [""] The name for a ROOT output tuple. 
+@param Replay.Algorithms [{""}] List of algorithm names to optionally replay
 
   <hr>
   \section jobOptions src/jobOptions.txt
