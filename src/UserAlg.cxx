@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.8 2002/05/14 12:56:08 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.9 2002/10/03 17:04:29 burnett Exp $
 
 // Gaudi system includes
 #include "GaudiKernel/MsgStream.h"
@@ -111,6 +111,14 @@ StatusCode UserAlg::initialize(){
         }
     }
 #endif
+
+#ifdef NTUPLE
+    // Here we are adding to our ROOT ntuple all of the columns for initialization
+    if (!m_tupleName.empty())
+        sc = m_ntupleWriteSvc->addItem(m_tupleName.c_str(), "NumCalls", 0.0);
+#endif
+
+
     return sc;
 }
 
@@ -145,7 +153,6 @@ StatusCode UserAlg::execute()
         }
     }
     
-
 
     // An example of pausing the display 
     bool pause = false;
