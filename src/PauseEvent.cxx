@@ -28,7 +28,15 @@
 /** @class PauseEvent
  * @brief Algorithm to pause execution to all user to examine an event more closely. 
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/PauseEvent.cxx,v 1.3 2002/04/22 19:03:24 heather Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/PauseEvent.cxx,v 1.4 2002/05/14 12:56:08 heather Exp $
+ <br> Example jobOptions fragment:
+   <pre>
+  // use this when you want to specify the run numbers (Run_Event):
+  ApplicationMgr.TopAlg += {"EventList"};
+  PauseEvent.eventList = {"0_20", "0_22", "3_24", "5_50"};
+  // and this when run number is not needed: (not sure why this works, but it does!)
+  PauseEvent.eventList = {20, 22, 24, 50};
+  </pre>
 */
 class PauseEvent : public Algorithm {
 public:

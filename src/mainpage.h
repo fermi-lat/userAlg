@@ -1,4 +1,4 @@
-//$Header: $
+//$Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/mainpage.h,v 1.1.1.1 2001/04/01 22:25:06 burnett Exp $
 // (Special "header" just for doxygen)
 
 /*! @mainpage  package userAlg
@@ -15,6 +15,11 @@ simulation/ reconstruction environment. This includes
 </ul>
   The primary component (which can be easily added to) is UserAlg.
 
+\section utilites Interactive Utilities
+<ul>
+ <li> PauseEvent </li>
+ <li> Replay </li>
+ </ul>
 
   <hr>
   \section jobOptions src/jobOptions.txt
