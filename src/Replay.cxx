@@ -17,11 +17,11 @@
 /** @class Replay 
  * @brief Setup a Replay menu, with Algorithm buttons to call the execute members; settable from job options;
  * 
- * $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/Replay.cxx,v 1.3 2002/07/02 19:39:56 burnett Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/Replay.cxx,v 1.4 2002/07/02 20:16:31 burnett Exp $
  * <br> Following is example of how to select multiple algs:
 <pre>
   ApplicationMgr.TopAlg += {"Replay"};
-  Replay.Members = {"TkrReconAlg", "TkrFindAlg"};
+  Replay.Algorithms = {"TkrReconAlg", "TkrFindAlg"};
  </pre>
 
 */
@@ -57,7 +57,7 @@ Replay::Replay(const std::string& name, ISvcLocator* pSvcLocator)
 {
     // declare properties with setProperties calls
     declareProperty("algname", m_algname); // for backward compatibility
-    declareProperty("Members",  m_algnameList);
+    declareProperty("Algorithms",  m_algnameList);
     
 }
 
