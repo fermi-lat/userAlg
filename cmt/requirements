@@ -1,6 +1,6 @@
 package userAlg
-version v6r1
-# $Id: requirements,v 1.14 2003/03/15 23:19:31 burnett Exp $
+version v6r2
+# $Id: requirements,v 1.15 2004/06/22 22:36:44 burnett Exp $
 
 # --------------------------
 # run a job with a user algorithm
@@ -9,6 +9,7 @@ version v6r1
 # get everything we need from here
 use Gleam *
 use ntupleWriterSvc *
+
 
 
 set JOBOPTIONS $(USERALGROOT)/src/jobOptions.txt
