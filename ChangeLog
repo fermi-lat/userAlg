@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Feb 28 12:33:00 PST 2003
+userAlg/src
+
+Modified Files:
+	ntuple.txt jobOptions.txt 
+Log Message:
+when writing ntuple - it is necessary to store the quantities for each event in
+the ntuple and not depend upon when an event triggers
+    *
+------------------------------------------------------------
 User: heather  Fri Feb 28 12:30:23 PST 2003
 userAlg/cmt
 
