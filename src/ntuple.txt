@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/ntuple.txt,v 1.1 2002/04/25 22:11:47 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/ntuple.txt,v 1.2 2002/10/03 17:04:29 burnett Exp $
 //##############################################################
 //
 // Job options file for ntuple writing
@@ -7,7 +7,7 @@
 ApplicationMgr.DLLs   += { "RootHistCnv", "ntupleWriterSvc"};
 ApplicationMgr.HistogramPersistency = "ROOT";
 
-ApplicationMgr.ExtSvc += { "NTupleSvc", "ntupleWriterSvc" };
+ApplicationMgr.ExtSvc += { "ntupleWriterSvc" };
 
 // add this guy the the general n-tuple
 
