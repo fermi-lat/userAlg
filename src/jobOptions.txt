@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.9 2002/04/25 22:11:47 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.10 2002/05/14 12:56:08 heather Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
@@ -20,6 +20,14 @@ ApplicationMgr.TopAlg += { "UserAlg"};
 //PauseEvent.eventList = {"0_20", "0_22", "3_24", "5_50"};
 // and this when run number is not needed: (not sure why this works, but it does!)
 //PauseEvent.eventList = {20, 22, 24, 50};
+
+// How to replay any algorithm from a paused condition:
+//
+//ApplicationMgr.TopAlg += {"Replay/button1", "Replay/button2"};
+//button1.algname="TkrReconAlg";
+//button2.algname="TkrFindAlg";
+
+//Output.Members={}; // turn off rootwriter.
 
 //==============================================================
 //
