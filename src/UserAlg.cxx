@@ -1,7 +1,7 @@
 /** @file UserAlg.cxx
     @brief declartion, implementaion of the class UserAlg
 
-    $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.17 2004/10/21 18:59:06 heather Exp $
+    $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.18 2004/11/05 18:46:18 heather Exp $
 */
 // Gaudi system includes
 #include "GaudiKernel/MsgStream.h"
@@ -143,7 +143,7 @@ StatusCode UserAlg::execute()
 {
     StatusCode  sc = StatusCode::SUCCESS;
     MsgStream   log( msgSvc(), name() );
-    log << MSG::INFO << "executing " << ++m_count << " time" << endreq;
+    log << MSG::DEBUG << "executing " << ++m_count << " time" << endreq;
 
     if( m_rootTupleSvc!=0) {
         // necessary to store the tuple entry
