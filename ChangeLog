@@ -1,0 +1,24 @@
+------------------------------------------------------------
+User: burnett  Sun Apr  1 15:25:06 PDT 2001
+userAlg - Imported sources
+
+Log Message:
+Initial import of package designed for user access to Gaudi for analysis and algorithm development
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N userAlg/.cvsignore
+N userAlg/cmt/.cvsignore
+N userAlg/cmt/Makefile
+N userAlg/cmt/requirements
+N userAlg/src/jobOptions.txt
+N userAlg/src/mainpage.h
+N userAlg/src/pdrApp_load.cxx
+N userAlg/src/UserAlg.cxx
+
+No conflicts created by this import
+
+    *
