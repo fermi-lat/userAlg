@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: burnett  Thu Jun  7 16:19:40 PDT 2001
+userAlg/src pdrApp_load.cxx
+
+Removed Files:
+	pdrApp_load.cxx 
+Log Message:
+remove renamed file
+
+    *
+------------------------------------------------------------
 User: burnett  Thu Jun  7 16:19:39 PDT 2001
 userAlg/cmt requirements
 
