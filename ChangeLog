@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Sat Mar 15 15:19:31 PST 2003
+userAlg/src/test
+
+Added Files:
+	jobOptions.txt 
+Log Message:
+add a simple test program -- will move the tag
+    *
+------------------------------------------------------------
+User: burnett  Sat Mar 15 15:19:31 PST 2003
 userAlg/src
 
 Modified Files:
