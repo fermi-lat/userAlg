@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: lsrea  Tue Jan  8 21:10:34 PST 2002
+userAlg/src
+
+Modified Files:
+	UserAlg.cxx jobOptions.txt 
+Added Files:
+	PauseEvent.cxx 
+Log Message:
+
+UserAlg:     added an example of pausing the display
+PauseEvent:  pauses the display based on a list of events
+    *
+------------------------------------------------------------
 User: burnett  Fri Oct 26 10:36:18 PDT 2001
 userAlg/src jobOptions.txt
 
