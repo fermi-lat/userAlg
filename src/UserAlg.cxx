@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.2 2001/04/26 18:52:34 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.3 2001/05/18 22:55:58 heather Exp $
 
 // Include files
 // Gaudi system includes
@@ -84,6 +84,8 @@ StatusCode UserAlg::initialize(){
     // Use the Job options service to set the Algorithm's parameters
     setProperties();
 
+    if( m_tupleName.empty()) {log << MSG::ERROR << "tupleName property not set!"<<endreq;
+        return StatusCode::FAILURE;}
     // now try to find the GlastDevSvc service
     if (service("GlastDetSvc", m_detSvc).isFailure()){
         log << MSG::ERROR << "Couldn't find the GlastDetSvc!" << endreq;
