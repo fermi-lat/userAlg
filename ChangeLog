@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Oct 26 10:36:18 PDT 2001
+userAlg/src jobOptions.txt
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+annotate better, restore previous default config.s
+    *
+------------------------------------------------------------
 User: burnett  Fri Oct 26 10:13:23 PDT 2001
 userAlg/src UserAlg_load.cxx jobOptions.txt
 
