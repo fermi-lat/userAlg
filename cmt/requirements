@@ -1,6 +1,6 @@
 package userAlg
-version v6r2p1
-# $Id: requirements,v 1.16 2004/07/13 23:36:33 burnett Exp $
+version v6r2p2
+# $Id: requirements,v 1.17 2004/07/15 19:02:54 burnett Exp $
 
 # --------------------------
 # run a job with a user algorithm
@@ -8,7 +8,10 @@ version v6r2p1
 
 # get everything we need from here
 use Gleam *
+
+# except, apparently, these:
 use ntupleWriterSvc *
+use astro *
 
 
 
