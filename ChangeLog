@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Feb 28 13:16:02 PST 2003
+userAlg/src
+
+Modified Files:
+	UserAlg.cxx jobOptions.txt 
+Log Message:
+ok...initialize during UserAlg::initialize instead that seems to work
+    *
+------------------------------------------------------------
 User: heather  Fri Feb 28 12:33:00 PST 2003
 userAlg/src
 
