@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.13 2003/02/28 20:33:00 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.14 2003/02/28 21:16:02 heather Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
@@ -34,7 +34,9 @@ Top.Members += { "UserAlg"};
 
 Output.Members={}; // turn off rootwriter.
 
-#include "$USERALGROOT/src/ntuple.txt"
+// define tree to insert user stuff into: could be MeritTuple or Exposure for current trees.
+UserAlg.treeName="user";
+
 //==============================================================
 //
 // End of job options file
