@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Mar 25 13:57:39 PST 2002
+userAlg/src
+
+Modified Files:
+	PauseEvent.cxx 
+Log Message:
+remove TdGlastData include which was unused
+    *
+------------------------------------------------------------
 User: heather  Mon Mar 25 13:53:48 PST 2002
 userAlg/cmt
 
