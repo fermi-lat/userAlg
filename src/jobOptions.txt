@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.12 2002/10/03 17:04:29 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.13 2003/02/28 20:33:00 heather Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
@@ -15,7 +15,7 @@ FluxAlg.source_name = "userspectrum";
 MessageSvc.OutputLevel      = 2;
 
 // include algorithms in this package to append 
-ApplicationMgr.TopAlg += { "UserAlg"};
+Top.Members += { "UserAlg"};
 
 // How to pause the GUI with a list of events of interest
 //   You can also pause the GUI on any calculable condition. (See userAlg.)
