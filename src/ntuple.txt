@@ -1,21 +1,16 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/ntuple.txt,v 1.2 2002/10/03 17:04:29 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/ntuple.txt,v 1.3 2003/02/28 20:33:00 heather Exp $
 //##############################################################
 //
 // Job options file for ntuple writing
 //
 
-ApplicationMgr.DLLs   += { "RootHistCnv", "ntupleWriterSvc"};
+ApplicationMgr.DLLs   += { "ntupleWriterSvc"};
 ApplicationMgr.HistogramPersistency = "ROOT";
 
-ApplicationMgr.ExtSvc += { "ntupleWriterSvc" };
+ApplicationMgr.ExtSvc += { "RootTupleSvc" };
 
-// add this guy the the general n-tuple
+UserAlg.treeName="GLEAM";
 
-ntupleWriterSvc.tuple_name = { "GLEAM" };
-
-UserAlg.tupleName="GLEAM";
-// and redefine the tuple output file.
-NTupleSvc.Output = {"GLEAM DATAFILE='userAlg.root' OPT='NEW'"};
 
 //==============================================================
 //
