@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Tue May 14 05:56:08 PDT 2002
+userAlg/src
+
+Modified Files:
+	UserAlg.cxx PauseEvent.cxx jobOptions.txt 
+Removed Files:
+	g4Options.txt 
+Log Message:
+update for new Event package
+    *
+------------------------------------------------------------
 User: heather  Tue May  7 14:14:52 PDT 2002
 userAlg/src
 
