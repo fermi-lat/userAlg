@@ -1,10 +1,16 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.14 2003/02/28 21:16:02 heather Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.15 2004/07/13 23:35:17 burnett Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
 //
 
-#include "$GLEAMROOT/src/jobOptions.txt"
+#include "$GLEAMROOT/src/basicOptions.txt"
+
+// choose one or the other below for standard Gui or FRED
+// for FRED, it must be running, and you must open the file hepeventserver.ior,
+in the default directory
+//#include "$GLEAMROOT/src/guiOptions.txt"
+//#include "$GLEAMROOT/src/fredOptions.txt"
 
 // add the local source library definitions and specify our test source
 FluxSvc.source_lib += {"$(USERALGROOT)/xml/user_sources.xml"};
@@ -14,8 +20,15 @@ FluxAlg.source_name = "userspectrum";
 // Set output level threshold (2=DEBUG, 3=INFO, 4=WARNING, 5=ERROR, 6=FATAL )
 MessageSvc.OutputLevel      = 2;
 
-// include algorithms in this package to append 
-Top.Members += { "UserAlg"};
+Triggered.Members={
+    "Sequencer/Trigger",
+    "Sequencer/Reconstruction",
+    "Sequencer/RecoDisplay",
+    "UserAlg",
+    "Sequencer/Output",
+    "FilterTracks","FilterAlg",
+    "meritAlg" };
+
 
 // How to pause the GUI with a list of events of interest
 //   You can also pause the GUI on any calculable condition. (See userAlg.)
