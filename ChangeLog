@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Oct 15 09:53:33 PDT 2002
+userAlg/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove explicit GuiSvc use
+    *
+------------------------------------------------------------
 User: burnett  Wed Oct  9 10:02:34 PDT 2002
 userAlg/xml
 
