@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sat Mar 15 14:12:28 PST 2003
+userAlg/src
+
+Modified Files:
+	PauseEvent.cxx RegisterSource.cxx Replay.cxx UserAlg.cxx 
+	mainpage.h 
+Log Message:
+    *
+------------------------------------------------------------
 User: burnett  Sat Mar 15 14:12:27 PST 2003
 userAlg/cmt
 
