@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.5 2002/01/09 05:10:33 lsrea Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.6 2002/04/22 19:03:24 heather Exp $
 
 // Gaudi system includes
 #include "GaudiKernel/MsgStream.h"
@@ -17,6 +17,9 @@
 
 // TDS class declarations: input data, and McParticle tree
 #include "GlastEvent/MonteCarlo/McParticle.h"
+#include "GlastEvent/MonteCarlo/McIntegratingHit.h"
+#include "GlastEvent/MonteCarlo/McPositionHit.h"
+
 #include "GlastEvent/TopLevel/Event.h"
 #include "GlastEvent/TopLevel/EventModel.h"
 
@@ -113,15 +116,17 @@ StatusCode UserAlg::execute()
     // An example of retrieving data from the TDS
     SmartDataPtr<mc::McParticleCol> particles(eventSvc(), EventModel::MC::McParticleCol);
     
-    if (!particles) return sc;
-    
-    mc::McParticleCol::const_iterator p;
-    
-    // Create map of TDS McParticles and ROOT McParticles
-    for (p = particles->begin(); p != particles->end(); p++) {
-        log << MSG::DEBUG << (*p)->fillStream(log.stream()) << endreq;
+    if (particles) {
+        
+        mc::McParticleCol::const_iterator p;
+        
+        for (p = particles->begin(); p != particles->end(); p++) {
+            
+        }
     }
     
+
+
     // An example of pausing the display 
     bool pause = false;
     // calculate some condition here...
