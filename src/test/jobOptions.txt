@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.18 2005/04/02 21:32:30 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/test/jobOptions.txt,v 1.5 2005/11/08 16:38:34 burnett Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
@@ -28,9 +28,11 @@ Triggered.Members={
     "FilterTracks","FilterAlg",
     "meritAlg" };
     
-Triggered.Members+={
-    "ClassifyAlg", 
-    "FT1Alg"}; // testing!!  
+// disable this since broken
+//Triggered.Members+={ "ClassifyAlg"};
+
+// testing this
+Triggered.Members+={ "FT1Alg"};
     
 meritAlg.cuts="LnA";     // remove or set to "LntA" to reenable tree-based tail cuts
 
