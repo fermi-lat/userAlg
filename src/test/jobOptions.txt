@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/test/jobOptions.txt,v 1.5 2005/11/08 16:38:34 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/test/jobOptions.txt,v 1.6 2005/12/07 18:53:12 burnett Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
@@ -19,23 +19,10 @@ FluxSvc.source_lib += {"$(USERALGROOT)/xml/user_sources.xml"};
 // Set output level threshold (2=DEBUG, 3=INFO, 4=WARNING, 5=ERROR, 6=FATAL )
 MessageSvc.OutputLevel      = 3;
 
-Triggered.Members={
-    "Sequencer/Trigger",
-    "Sequencer/Reconstruction",
-    "Sequencer/RecoDisplay",
-    "UserAlg",
-    "Sequencer/Output",
-    "FilterTracks","FilterAlg",
-    "meritAlg" };
-    
-// disable this since broken
-//Triggered.Members+={ "ClassifyAlg"};
 
-// testing this
-Triggered.Members+={ "FT1Alg"};
+// add our guy to list that is executed if trigger passes
+Triggered.Members+={ "UserAlg"};
     
-meritAlg.cuts="LnA";     // remove or set to "LntA" to reenable tree-based tail cuts
-
 // How to pause the GUI with a list of events of interest
 //   You can also pause the GUI on any calculable condition. (See userAlg.)
 

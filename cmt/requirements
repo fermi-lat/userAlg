@@ -1,6 +1,6 @@
 package userAlg
-version v6r4p7
-# $Id: requirements,v 1.28 2005/11/08 16:45:41 burnett Exp $
+version v6r5
+# $Id: requirements,v 1.29 2005/12/07 18:53:12 burnett Exp $
 author T.Burnett <tburnett@u.washington.edu>
 
 # --------------------------
