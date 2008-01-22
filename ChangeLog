@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Tue Jan 22 07:47:07 PST 2008
+userAlg/src
+
+Modified Files:
+	RegisterSource.cxx 
+Log Message:
+patch implied by ISpectrum interface change
+    *
+------------------------------------------------------------
+User: burnett  Tue Jan 22 07:47:07 PST 2008
 userAlg/doc
 
 Modified Files:
