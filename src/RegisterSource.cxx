@@ -8,11 +8,12 @@
 #include "FluxSvc/IRegisterSource.h"
 #include "FluxSvc/ISpectrumFactory.h"
 #include "FluxSvc/IFluxSvc.h"
+#include "flux/Spectrum.h"
 
 /** @class UserSource
-@brief a test particle source: must inherit from ISpectrum
+@brief a test particle source: must inherit from ISpectrum or Spectrum
 */
-class UserSource :  public ISpectrum {
+class UserSource :  public Spectrum {
 public:
     UserSource(const std::string& params, HepRandomEngine* engine=0){};
 
@@ -41,7 +42,6 @@ public:
     }
 
 
-
 private:
 };
 
@@ -50,7 +50,7 @@ private:
 *  @brief Register a sources
 *  
 *   @author Toby Burnett
-*   $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/RegisterSource.cxx,v 1.3 2003/03/15 22:12:28 burnett Exp $
+*   $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/RegisterSource.cxx,v 1.4 2004/07/15 19:02:54 burnett Exp $
 */
 class RegisterSource : public AlgTool, virtual public IRegisterSource {
 public:
