@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Jan 22 07:47:07 PST 2008
+userAlg/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+patch implied by ISpectrum interface change
+    *
+------------------------------------------------------------
 TAG
 Tag name: v6r6, operation: add
 Package: userAlg
