@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/jobOptions.txt,v 1.19 2005/11/08 16:38:19 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/userAlg/src/jobOptions.txt,v 1.20 2007/04/11 14:22:49 burnett Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
@@ -12,7 +12,7 @@
 //#include "$GLEAMROOT/src/fredOptions.txt"
 
 // add the local source library definitions and specify our test source
-FluxSvc.source_lib += {"$(USERALGROOT)/xml/user_sources.xml"};
+FluxSvc.source_lib += {"$(USERALGXMLPATH)/user_sources.xml"};
 
 //FluxAlg.source_name = "userspectrum";
 
