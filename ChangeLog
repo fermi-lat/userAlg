@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Mon Jul 28 15:39:59 PDT 2008
+userAlg/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tagging after CMT env var change
+    *
+------------------------------------------------------------
+User: burnett  Mon Jul 28 15:39:59 PDT 2008
 userAlg/cmt
 
 Modified Files:
