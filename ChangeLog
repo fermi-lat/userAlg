@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:40:46 PST 2008
+GlastRelease-scons/userAlg
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for userAlg v6r6p2 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 User: ecephas  Fri Aug 15 14:22:49 PDT 2008
 GlastRelease-scons/userAlg
 
