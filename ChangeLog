@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-15-49-00, operation: add
+Package: userAlg
+User: glastrm  Fri Jan  9 13:31:54 2009
+Files:
+  userAlg/SConscript  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-15-50-10, operation: del
 Package: userAlg
 User: glastrm  Fri Jan  9 08:31:50 2009
