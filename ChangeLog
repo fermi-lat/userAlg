@@ -1,5 +1,31 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-15-50-10, operation: del
+Package: userAlg
+User: glastrm  Fri Jan  9 08:31:50 2009
+Files:
+  userAlg/.cvsignore  1.1.1.1
+  userAlg/ChangeLog  1.117
+  userAlg/SConscript  1.2
+  userAlg/cmt/.cvsignore  1.1.1.1
+  userAlg/cmt/requirements  1.33
+  userAlg/cmt/Makefile  1.1.1.1
+  userAlg/doc/release.notes  1.19
+  userAlg/src/Replay.cxx  1.6
+  userAlg/src/PauseEvent.cxx  1.7
+  userAlg/src/ntuple.txt  1.4
+  userAlg/src/RegisterSource.cxx  1.5
+  userAlg/src/UserAlg_load.cxx  1.6
+  userAlg/src/UserAlg.cxx  1.19
+  userAlg/src/mainpage.h  1.3
+  userAlg/src/FRED.txt  1.1
+  userAlg/src/jobOptions.txt  1.21
+  userAlg/src/test/jobOptions.txt  1.8
+  userAlg/xml/user_sources.xml  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-15-50-10, operation: add
 Package: userAlg
 User: glastrm  Thu Jan  8 15:05:05 2009
