@@ -1,7 +1,7 @@
 /** @file UserAlg.cxx
     @brief declartion, implementaion of the class UserAlg
 
-    $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.19 2004/11/26 21:40:20 burnett Exp $
+    $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.20 2009/09/12 04:29:05 lsrea Exp $
 */
 // Gaudi system includes
 #include "GaudiKernel/MsgStream.h"
@@ -174,8 +174,8 @@ StatusCode UserAlg::execute()
             const Event::McParticle& mcp = **piter;
             log << MSG::DEBUG ;
             if(log.isActive()) {
-                log << "Particle ", << count << ", 4Momentum: " 
-                    << mcp.initialFourMomentum() << endl;
+                log << "Particle " << count << ", 4Momentum: " 
+                    << mcp.initialFourMomentum() << endreq;
             }
         }
     }
