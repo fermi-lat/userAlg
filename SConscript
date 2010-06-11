@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/userAlg/SConscript,v 1.4 2009/09/12 16:23:13 lsrea Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/userAlg/SConscript,v 1.5 2009/09/13 07:25:46 lsrea Exp $ 
 # Authors: T.Burnett <tburnett@u.washington.edu>
 # Version: userAlg-06-06-04
 import os
@@ -7,7 +7,7 @@ Import('baseEnv')
 Import('listFiles')
 Import('packages')
 progEnv = baseEnv.Clone()
-libEnv = baseEnv.Clone()
+##libEnv = baseEnv.Clone()
 
 progEnv.Tool('FluxSvcLib')
 progEnv.Tool('identsLib')
@@ -27,10 +27,13 @@ if baseEnv['PLATFORM'] == 'win32':
         progEnv.AppendUnique(LINKFLAGS=['/subsystem:windows'])  #from macro guiapp_linkopts in ../gui/cmt/requirements
 
 
-userApp = progEnv.GaudiProgram('userApp', listFiles(['src/*.cxx']), test=1)
-test_userAlg = progEnv.GaudiProgram('test_userAlg', ['src/UserAlg.cxx', 'src/RegisterSource.cxx'], test = 1)
+userApp = progEnv.GaudiProgram('userApp', listFiles(['src/*.cxx']), test=1,
+			       package='userAlg')
+test_userAlg = progEnv.GaudiProgram('test_userAlg', ['src/UserAlg.cxx', 'src/RegisterSource.cxx'], test = 1, package='userAlg')
 
-progEnv.Tool('registerObjects', package = 'userAlg', testApps = [test_userAlg,userApp])
+progEnv.Tool('registerTargets', package = 'userAlg',
+	     testAppCxts = [[test_userAlg, progEnv], [userApp,progEnv]],
+	     jo = listFiles(['src/*.txt', 'src/test/jobOptions.txt']))
 
 
 
