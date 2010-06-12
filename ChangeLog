@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jrb  Fri Jun 11 18:42:51 PDT 2010
+GlastRelease-scons/userAlg/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+in jo files replace occurrences of PKGROOT/src with PKGJOBOPTIONSPATH
+    *
+------------------------------------------------------------
+User: jrb  Fri Jun 11 18:42:51 PDT 2010
 GlastRelease-scons/userAlg/src
 
 Modified Files:
