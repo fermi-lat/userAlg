@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Sep 20 09:47:30 PDT 2010
+userAlg
+
+Modified Files:
+      Tag: GlastReleasev18r6p1
+	SConscript 
+Log Message:
+updates for Gaudi v21r7
+    *
+------------------------------------------------------------
 TAG
 Tag name: userAlg-06-06-05, operation: add
 Package: userAlg
