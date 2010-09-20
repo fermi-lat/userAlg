@@ -50,7 +50,7 @@ private:
 *  @brief Register a sources
 *  
 *   @author Toby Burnett
-*   $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/RegisterSource.cxx,v 1.5 2008/01/22 15:47:07 burnett Exp $
+*   $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/RegisterSource.cxx,v 1.6 2009/09/12 04:29:05 lsrea Exp $
 */
 class RegisterSource : public AlgTool, virtual public IRegisterSource {
 public:
@@ -65,8 +65,9 @@ public:
 
 
 // Static factory for instantiation of algtool objects
-static ToolFactory<RegisterSource> s_factory;
-const IToolFactory& RegisterSourceFactory = s_factory;
+//static ToolFactory<RegisterSource> s_factory;
+//const IToolFactory& RegisterSourceFactory = s_factory;
+DECLARE_TOOL_FACTORY(RegisterSource);
 
 // Standard Constructor
 RegisterSource::RegisterSource(const std::string& type, 
