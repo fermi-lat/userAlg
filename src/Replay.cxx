@@ -20,7 +20,7 @@
 /** @class Replay 
 * @brief Setup a Replay menu, with Algorithm buttons to call the execute members; settable from job options;
 * 
-* $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/Replay.cxx,v 1.5 2002/07/02 21:50:23 burnett Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/Replay.cxx,v 1.6 2003/03/15 22:12:28 burnett Exp $
 * <br> Following is example of how to select multiple algs:
 @verbatim
 ApplicationMgr.TopAlg += {"Replay"};
@@ -49,8 +49,9 @@ private:
 
 };
 
-static const AlgFactory<Replay>  Factory;
-const IAlgFactory& ReplayFactory = Factory;
+//static const AlgFactory<Replay>  Factory;
+//const IAlgFactory& ReplayFactory = Factory;
+DECLARE_ALGORITHM_FACTORY(Replay);
 
 gui::SubMenu* Replay::s_replayMenu =0;
 
