@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/userAlg/SConscript,v 1.5 2009/09/13 07:25:46 lsrea Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/userAlg/SConscript,v 1.5.20.1 2010/09/20 16:47:30 heather Exp $ 
 # Authors: T.Burnett <tburnett@u.washington.edu>
-# Version: userAlg-06-06-04-gr01
+# Version: userAlg-06-06-04-gr02
 import os
 Import('baseEnv')
 Import('listFiles')
