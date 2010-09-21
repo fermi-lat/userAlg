@@ -20,7 +20,7 @@
 /** @class Replay 
 * @brief Setup a Replay menu, with Algorithm buttons to call the execute members; settable from job options;
 * 
-* $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/Replay.cxx,v 1.6 2003/03/15 22:12:28 burnett Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/Replay.cxx,v 1.6.648.1 2010/09/20 16:47:31 heather Exp $
 * <br> Following is example of how to select multiple algs:
 @verbatim
 ApplicationMgr.TopAlg += {"Replay"};
@@ -75,7 +75,7 @@ StatusCode Replay::initialize(){
 
     // Alg manager service for finding algs by name
     if ( (serviceLocator( )->getService( "ApplicationMgr",
-        IID_IAlgManager, (IInterface*&)m_AlgMgr )).isFailure() ) 
+        IAlgManager::interfaceID(), (IInterface*&)m_AlgMgr )).isFailure() ) 
     {
         log << MSG::ERROR << " no application manager???" << endreq;
         return StatusCode::FAILURE;
