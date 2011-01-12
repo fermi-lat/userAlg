@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/userAlg/src/test/jobOptions.txt,v 1.8 2008/07/21 15:17:40 glastrm Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/test/jobOptions.txt,v 1.9 2010/06/12 01:42:51 jrb Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
@@ -43,6 +43,9 @@ Output.Members={}; // turn off rootwriter.
 // define tree to insert user stuff into: could be MeritTuple or Exposure for current trees.
 UserAlg.treeName="user";
 ApplicationMgr.EvtMax =1000;
+
+TkrFindFirst.DoCRFinding = false;
+TkrFindFirst.TrackFindType = "TreeBased";
 
 
 //==============================================================

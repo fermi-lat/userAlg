@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/userAlg/SConscript,v 1.6 2010/06/11 00:48:53 jrb Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/userAlg/SConscript,v 1.7 2010/06/13 07:04:32 jrb Exp $ 
 # Authors: T.Burnett <tburnett@u.washington.edu>
 # Version: userAlg-06-06-05
 import os
@@ -33,7 +33,8 @@ test_userAlg = progEnv.GaudiProgram('test_userAlg', ['src/UserAlg.cxx', 'src/Reg
 
 progEnv.Tool('registerTargets', package = 'userAlg',
 	     testAppCxts = [[test_userAlg, progEnv], [userApp,progEnv]],
-	     jo = listFiles(['src/*.txt', 'src/test/jobOptions.txt']))
+	     jo = listFiles(['src/*.txt', 'src/test/jobOptions.txt']),
+         xml = listFiles(['xml/*.xml']))
 
 
 
