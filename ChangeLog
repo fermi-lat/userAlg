@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon May 23 09:32:23 PDT 2011
+userAlg
+
+Modified Files:
+	SConscript 
+Log Message:
+CLHEP namespace
+    *
+------------------------------------------------------------
 TAG
 Tag name: userAlg-06-06-06, operation: add
 Package: userAlg
