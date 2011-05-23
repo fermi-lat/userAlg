@@ -15,7 +15,7 @@
 */
 class UserSource :  public Spectrum {
 public:
-    UserSource(const std::string& /*params*/, HepRandomEngine* /*engine*/=0){};
+    UserSource(const std::string& /*params*/, CLHEP::HepRandomEngine* /*engine*/=0){};
 
 
     ///  specify correct particle type
@@ -50,7 +50,7 @@ private:
 *  @brief Register a sources
 *  
 *   @author Toby Burnett
-*   $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/RegisterSource.cxx,v 1.5 2008/01/22 15:47:07 burnett Exp $
+*   $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/RegisterSource.cxx,v 1.6 2009/09/12 04:29:05 lsrea Exp $
 */
 class RegisterSource : public AlgTool, virtual public IRegisterSource {
 public:
