@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug 17 10:37:33 PDT 2011
+GlastRelease-scons/userAlg/src
+
+Modified Files:
+	UserAlg.cxx 
+Log Message:
+fix up use of TkrVertexCol smart pointer
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr02, operation: add
 Package: userAlg
