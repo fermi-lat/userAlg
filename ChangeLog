@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-19-03-07, operation: add
+Package: userAlg
+User: heather  Wed Sep  7 10:26:34 2011
+Files:
+  userAlg/.cvsignore  1.2
+  userAlg/ChangeLog  1.182
+  userAlg/SConscript  1.11
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-03-07, operation: del
 Package: userAlg
 User: glastrm  Tue Sep  6 14:17:18 2011
