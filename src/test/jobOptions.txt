@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/test/jobOptions.txt,v 1.9 2010/06/12 01:42:51 jrb Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/test/jobOptions.txt,v 1.10 2011/01/12 00:20:15 lsrea Exp $
 //##############################################################
 //
 // Job options file for user algorithm development
@@ -44,7 +44,7 @@ Output.Members={}; // turn off rootwriter.
 UserAlg.treeName="user";
 ApplicationMgr.EvtMax =1000;
 
-TkrFindFirst.DoCRFinding = false;
+//TkrFindFirst.DoCRFinding = false;  Not available in P7
 TkrFindFirst.TrackFindType = "TreeBased";
 
 
