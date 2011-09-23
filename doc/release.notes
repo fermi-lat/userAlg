@@ -4,6 +4,7 @@
 @verbatim
  * EOH *
 
+ userAlg-06-06-08-gr02 23-Sep-2011 hmk really fix JO for p7 branch
  userAlg-06-06-08-gr01 23-Sep-2011 hmk Fix test JO for P7 branch to remove P8
     JO parameter
  userAlg-06-06-08 17-Aug-2011    jrb correct usage of TkrVertexCol smart pointer
