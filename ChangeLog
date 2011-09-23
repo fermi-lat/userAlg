@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Fri Sep 23 09:42:23 PDT 2011
+userAlg/src/test
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	jobOptions.txt 
+Log Message:
+really fix P7 SCons unit test JO
+    *
+------------------------------------------------------------
+User: heather  Fri Sep 23 09:42:23 PDT 2011
 userAlg/doc
 
 Modified Files:
