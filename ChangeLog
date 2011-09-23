@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Sep 23 09:42:23 PDT 2011
+userAlg
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	SConscript 
+Log Message:
+really fix P7 SCons unit test JO
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr06, operation: add
 Package: userAlg
