@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Sep 23 07:08:44 PDT 2011
+userAlg
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	SConscript 
+Log Message:
+update tags for branch
+    *
+------------------------------------------------------------
 TAG
 Tag name: TkrUtil-03-18-02-gr03, operation: add
 Package: userAlg
