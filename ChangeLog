@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Sep 23 07:00:13 PDT 2011
+userAlg/src/test
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	jobOptions.txt 
+Log Message:
+Scons unit test patch
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-br01, operation: add
 Package: userAlg
