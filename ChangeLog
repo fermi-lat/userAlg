@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Dec 12 12:59:31 PST 2011
+GlastRelease-scons/userAlg/src
+
+Modified Files:
+	PauseEvent.cxx RegisterSource.cxx Replay.cxx UserAlg.cxx 
+Log Message:
+merge Gaudi v21r7
+    *
+------------------------------------------------------------
+User: heather  Mon Dec 12 12:59:31 PST 2011
 GlastRelease-scons/userAlg/doc
 
 Modified Files:
