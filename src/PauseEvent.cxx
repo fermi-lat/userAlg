@@ -27,7 +27,7 @@
 /** @class PauseEvent
 * @brief Algorithm to pause execution to all user to examine an event more closely. 
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/PauseEvent.cxx,v 1.6 2003/03/15 22:12:28 burnett Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/userAlg/src/PauseEvent.cxx,v 1.7.648.1 2010/09/20 16:47:30 heather Exp $
 <br> Example jobOptions fragment:
 <pre>
 // use this when you want to specify the run numbers (Run_Event):
@@ -66,8 +66,9 @@ private:
 // expect that the xxx_load.cxx file contains a call     
 //     DLL_DECL_ALGORITHM( PauseEvent );
 
-static const AlgFactory<PauseEvent>  Factory;
-const IAlgFactory& PauseEventFactory = Factory;
+//static const AlgFactory<PauseEvent>  Factory;
+//const IAlgFactory& PauseEventFactory = Factory;
+DECLARE_ALGORITHM_FACTORY(PauseEvent);
 
 PauseEvent::PauseEvent(const std::string& name, ISvcLocator* pSvcLocator)
 :Algorithm(name, pSvcLocator)
