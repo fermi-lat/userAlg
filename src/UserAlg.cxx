@@ -1,7 +1,7 @@
 /** @file UserAlg.cxx
     @brief declartion, implementaion of the class UserAlg
 
-    $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/userAlg/src/UserAlg.cxx,v 1.21 2009/09/13 07:25:18 lsrea Exp $
+    $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/userAlg/src/UserAlg.cxx,v 1.22 2011/08/17 17:37:33 jrb Exp $
 */
 // Gaudi system includes
 #include "GaudiKernel/MsgStream.h"
@@ -77,8 +77,9 @@ private:
 };
 
 
-static const AlgFactory<UserAlg>  Factory;
-const IAlgFactory& UserAlgFactory = Factory;
+//static const AlgFactory<UserAlg>  Factory;
+//const IAlgFactory& UserAlgFactory = Factory;
+DECLARE_ALGORITHM_FACTORY(UserAlg);
 
 UserAlg::UserAlg(const std::string& name, ISvcLocator* pSvcLocator)
 :Algorithm(name, pSvcLocator)
