@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Jan 20 14:51:39 PST 2012
+GlastRelease-scons/userAlg
+
+Modified Files:
+	SConscript 
+Log Message:
+Windows patch for new GuiSvc scheme
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-br01, operation: add
 Package: userAlg
