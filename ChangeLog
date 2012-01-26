@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed Jan 25 20:24:54 PST 2012
+userAlg
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	SConscript 
+Log Message:
+Gaudi upgrade for rhel5
+    *
+------------------------------------------------------------
 TAG
 Tag name: userAlg-06-07-01, operation: add
 Package: userAlg
