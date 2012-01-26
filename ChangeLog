@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Wed Jan 25 20:24:54 PST 2012
+userAlg/src
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	PauseEvent.cxx RegisterSource.cxx Replay.cxx UserAlg.cxx 
+Log Message:
+Gaudi upgrade for rhel5
+    *
+------------------------------------------------------------
+User: heather  Wed Jan 25 20:24:54 PST 2012
 userAlg/doc
 
 Modified Files:
