@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/userAlg/SConscript,v 1.11.16.1 2011/09/23 14:08:44 heather Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/userAlg/SConscript,v 1.14 2012/01/20 22:57:36 jrb Exp $ 
 # Authors: T.Burnett <tburnett@u.washington.edu>
-# Version: userAlg-06-06-08-gr02
+# Version: userAlg-06-06-08-gr03
 import os
 Import('baseEnv')
 Import('listFiles')
@@ -16,24 +16,22 @@ progEnv.Tool('facilitiesLib')
 progEnv.Tool('GuiSvcLib')
 progEnv.Tool('guiLib')
 progEnv.Tool('astroLib')
-#progEnv.Tool('GleamLib')
+
 progEnv.Tool('ntupleWriterSvcLib')
 
-if baseEnv['PLATFORM'] != 'win32':
-        progEnv.AppendUnique(LINKFLAGS = ['-u GuiSvc_loadRef'])
-
-if baseEnv['PLATFORM'] == 'win32':
-        progEnv.AppendUnique(LINKFLAGS =['/include:_GuiSvc_loadRef'])
-        progEnv.AppendUnique(LINKFLAGS=['/subsystem:windows'])  #from macro guiapp_linkopts in ../gui/cmt/requirements
-
-
-userApp = progEnv.GaudiProgram('userApp', listFiles(['src/*.cxx']), test=1,
+userApp = progEnv.GaudiProgram('userApp', 
+			       listFiles(['src/*.cxx']), test=1,
 			       package='userAlg')
-test_userAlg = progEnv.GaudiProgram('test_userAlg', ['src/UserAlg.cxx', 'src/RegisterSource.cxx'], test = 1, package='userAlg')
+test_userAlg = progEnv.GaudiProgram('test_userAlg', 
+				    ['src/UserAlg.cxx', 
+				     'src/RegisterSource.cxx'], 
+				    test = 1, package='userAlg')
 
 progEnv.Tool('registerTargets', package = 'userAlg',
-	     testAppCxts = [[test_userAlg, progEnv], [userApp,progEnv]],
-	     jo = listFiles(['src/*.txt', 'src/test/jobOptions.txt']),
+	     testAppCxts = [[test_userAlg, progEnv], 
+			    [userApp,progEnv]],
+	     jo = listFiles(['src/*.txt', 
+			     'src/test/jobOptions.txt']),
          xml = listFiles(['xml/*.xml']))
 
 
