@@ -1,5 +1,31 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastReleaseL1proc-17-35-24-gr18, operation: add
+Package: userAlg
+User: heather  Mon Jan 30 19:38:55 2012
+Files:
+  userAlg/.cvsignore  1.2
+  userAlg/ChangeLog  1.182
+  userAlg/SConscript  1.11.16.3
+  userAlg/cmt/.cvsignore  1.1.1.1
+  userAlg/cmt/requirements  1.37.16.3
+  userAlg/cmt/Makefile  1.1.1.1
+  userAlg/doc/release.notes  1.26.16.3
+  userAlg/src/Replay.cxx  1.6.730.1
+  userAlg/src/PauseEvent.cxx  1.7.730.1
+  userAlg/src/ntuple.txt  1.4
+  userAlg/src/RegisterSource.cxx  1.7.26.1
+  userAlg/src/UserAlg_load.cxx  1.6
+  userAlg/src/UserAlg.cxx  1.22.16.1
+  userAlg/src/mainpage.h  1.3
+  userAlg/src/FRED.txt  1.2
+  userAlg/src/jobOptions.txt  1.22
+  userAlg/src/test/jobOptions.txt  1.10.52.2
+  userAlg/xml/user_sources.xml  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-br02, operation: add
 Package: userAlg
 User: heather  Fri Jan 27 14:05:47 2012
