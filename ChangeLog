@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-19-04-01-gr08, operation: add
 Package: userAlg
+User: heather  Thu Feb  9 16:03:39 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-19-04-01-gr08, operation: add
+Package: userAlg
 User: heather  Thu Feb  9 12:23:54 2012
 Files:
   userAlg/.cvsignore  1.2
