@@ -1,7 +1,7 @@
 /** @file UserAlg.cxx
     @brief declartion, implementaion of the class UserAlg
 
-    $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/userAlg/src/UserAlg.cxx,v 1.22 2011/08/17 17:37:33 jrb Exp $
+    $Header: /nfs/slac/g/glast/ground/cvs/userAlg/src/UserAlg.cxx,v 1.23 2011/12/12 20:59:31 heather Exp $
 */
 // Gaudi system includes
 #include "GaudiKernel/MsgStream.h"
@@ -109,7 +109,7 @@ StatusCode UserAlg::initialize(){
     }
     
     // get the Gui service (not required)
-    if (service("GuiSvc", m_guiSvc).isFailure ()){
+    if (service("GuiSvc", m_guiSvc, false).isFailure ()){
         log << MSG::WARNING << "No GuiSvc, so no display" << endreq;
     }else{
         //m_guiSvc->guiMgr()->display().add(new Rep, "User rep");
