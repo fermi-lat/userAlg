@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Feb 23 10:13:47 PST 2012
+userAlg/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+prevent auto use of display in UserAlg.cxx
+    *
+------------------------------------------------------------
 User: heather  Thu Feb 23 10:13:46 PST 2012
 userAlg/cmt
 
