@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Feb 23 10:13:46 PST 2012
+userAlg/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+prevent auto use of display in UserAlg.cxx
+    *
+------------------------------------------------------------
+User: heather  Thu Feb 23 10:13:46 PST 2012
 userAlg
 
 Modified Files:
