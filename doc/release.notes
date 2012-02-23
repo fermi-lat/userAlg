@@ -4,6 +4,7 @@
 @verbatim
  * EOH *
 
+ userAlg-06-06-08-gr04 23-Feb-2012 hmk Avoid display when GuiSvc not available
  userAlg-06-06-08-gr03 25-Jan-2012 hmk Merge in Gaudi v21r7 for L1proc
  userAlg-06-06-08-gr02 23-Sep-2011 hmk really fix JO for p7 branch
  userAlg-06-06-08-gr01 23-Sep-2011 hmk Fix test JO for P7 branch to remove P8
