@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Feb 23 10:13:46 PST 2012
+userAlg
+
+Modified Files:
+	SConscript 
+Log Message:
+prevent auto use of display in UserAlg.cxx
+    *
+------------------------------------------------------------
 User: heather  Thu Feb 23 09:52:38 PST 2012
 userAlg/src
 
