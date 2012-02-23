@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Feb 23 10:25:33 PST 2012
+userAlg
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	SConscript 
+Log Message:
+avoid display unless GuiSvc explicitly loaded
+    *
+------------------------------------------------------------
 TAG
 Tag name: userAlg-06-07-02, operation: add
 Package: userAlg
