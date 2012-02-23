@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Thu Feb 23 10:25:33 PST 2012
+userAlg/src
+
+Modified Files:
+      Tag: GlastRelease-17-35-24-br01
+	UserAlg.cxx 
+Log Message:
+avoid display unless GuiSvc explicitly loaded
+    *
+------------------------------------------------------------
+User: heather  Thu Feb 23 10:25:33 PST 2012
 userAlg/doc
 
 Modified Files:
