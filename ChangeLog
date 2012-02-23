@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Feb 23 09:52:38 PST 2012
+userAlg/src
+
+Modified Files:
+	UserAlg.cxx 
+Log Message:
+avoid display unless we want it
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr23, operation: add
 Package: userAlg
