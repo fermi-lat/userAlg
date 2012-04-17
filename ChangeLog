@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: userAlg
+User: heather  Tue Apr 17 10:33:12 2012
+Files:
+  userAlg/.cvsignore  1.2
+  userAlg/ChangeLog  1.182
+  userAlg/SConscript  1.11.16.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-gr25, operation: add
 Package: userAlg
 User: heather  Mon Apr 16 13:45:47 2012
