@@ -4,6 +4,15 @@ Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: userAlg
 User: heather  Tue Apr 17 10:33:12 2012
 Files:
+  userAlg/doc/release.notes  1.26.16.2
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: userAlg
+User: heather  Tue Apr 17 10:33:12 2012
+Files:
   userAlg/cmt/.cvsignore  1.1.1.1
   userAlg/cmt/requirements  1.37.16.2
   userAlg/cmt/Makefile  1.1.1.1
