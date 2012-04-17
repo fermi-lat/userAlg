@@ -4,6 +4,23 @@ Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: userAlg
 User: heather  Tue Apr 17 10:33:12 2012
 Files:
+  userAlg/src/Replay.cxx  1.6
+  userAlg/src/PauseEvent.cxx  1.7
+  userAlg/src/ntuple.txt  1.4
+  userAlg/src/RegisterSource.cxx  1.7
+  userAlg/src/UserAlg_load.cxx  1.6
+  userAlg/src/UserAlg.cxx  1.22
+  userAlg/src/mainpage.h  1.3
+  userAlg/src/FRED.txt  1.2
+  userAlg/src/jobOptions.txt  1.22
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: userAlg
+User: heather  Tue Apr 17 10:33:12 2012
+Files:
   userAlg/doc/release.notes  1.26.16.2
 
     *
