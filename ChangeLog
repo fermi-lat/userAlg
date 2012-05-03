@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu May  3 10:12:09 PDT 2012
+userAlg
+
+Modified Files:
+	SConscript 
+Log Message:
+fixed up for windows
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr30, operation: add
 Package: userAlg
