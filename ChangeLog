@@ -1,4 +1,29 @@
 ------------------------------------------------------------
+TAG
+Tag name: userAlg-06-07-04, operation: add
+Package: userAlg
+User: heather  Thu May 10 21:34:32 2012
+Files:
+  userAlg/.cvsignore  1.2
+  userAlg/ChangeLog  1.295
+  userAlg/SConscript  1.17
+  userAlg/cmt/.cvsignore  1.1.1.1
+  userAlg/cmt/requirements  1.42
+  userAlg/cmt/Makefile  1.1.1.1
+  userAlg/doc/release.notes  1.31
+  userAlg/src/Replay.cxx  1.7
+  userAlg/src/PauseEvent.cxx  1.8
+  userAlg/src/ntuple.txt  1.4
+  userAlg/src/RegisterSource.cxx  1.8
+  userAlg/src/UserAlg.cxx  1.24
+  userAlg/src/mainpage.h  1.3
+  userAlg/src/FRED.txt  1.2
+  userAlg/src/jobOptions.txt  1.22
+  userAlg/src/test/jobOptions.txt  1.10
+  userAlg/xml/user_sources.xml  1.2
+
+    *
+------------------------------------------------------------
 User: heather  Thu May 10 21:33:52 PDT 2012
 userAlg/src
 
