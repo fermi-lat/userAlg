@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: heather  Thu May 10 21:33:51 PDT 2012
-userAlg/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-linux fix 
-    *
-------------------------------------------------------------
-User: heather  Thu May 10 21:33:51 PDT 2012
-userAlg/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-linux fix 
-    *
-------------------------------------------------------------
-User: heather  Thu May 10 21:33:51 PDT 2012
-userAlg
-
-Modified Files:
-	SConscript 
-Log Message:
-linux fix 
-    *
-------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr31, operation: add
 Package: userAlg
