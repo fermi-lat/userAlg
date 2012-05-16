@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: heather  Wed May 16 12:35:55 PDT 2012
-userAlg/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-one more cmt tweak
-    *
-------------------------------------------------------------
-User: heather  Wed May 16 12:35:55 PDT 2012
-userAlg/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-one more cmt tweak
-    *
-------------------------------------------------------------
-User: heather  Wed May 16 12:35:55 PDT 2012
-userAlg
-
-Modified Files:
-	SConscript 
-Log Message:
-one more cmt tweak
-    *
-------------------------------------------------------------
 TAG
 Tag name: userAlg-06-07-04, operation: add
 Package: userAlg
