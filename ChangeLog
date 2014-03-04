@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: heather  Mon Mar  3 21:47:56 PST 2014
-userAlg/src/test
-
-Modified Files:
-	jobOptions.txt 
-Log Message:
-adding AcdDigiAlg.applyCoherentNoise = false; to unit test JO to avoid need for Overlays
-    *
-------------------------------------------------------------
-User: heather  Mon Mar  3 21:47:56 PST 2014
-userAlg/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-adding AcdDigiAlg.applyCoherentNoise = false; to unit test JO to avoid need for Overlays
-    *
-------------------------------------------------------------
-User: heather  Mon Mar  3 21:47:56 PST 2014
-userAlg
-
-Modified Files:
-	SConscript 
-Log Message:
-adding AcdDigiAlg.applyCoherentNoise = false; to unit test JO to avoid need for Overlays
-    *
-------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-09-07, operation: add
 Package: userAlg
