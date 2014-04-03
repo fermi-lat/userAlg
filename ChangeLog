@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Apr  2 23:29:01 PDT 2014
+userAlg
+
+Modified Files:
+	SConscript 
+Log Message:
+remove new unit test JO
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-09-08, operation: add
 Package: userAlg
